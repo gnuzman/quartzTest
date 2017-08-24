@@ -1,0 +1,4 @@
+#server
+server:
+  port: 48080
+  context-path: /zzh
