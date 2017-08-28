@@ -2,3 +2,22 @@
 server:
   port: 48080
   context-path: /zzh
+quartz:
+  enabled: true
+spring:
+  datasource:
+    url: jdbc:mysql://192.168.42.9:3306/mydb?autoReconnect=true&useSSL=false
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+#spring:
+#  profiles:
+#    active: dev
+#    datasource:
+#      url: jdbc:mysql://192.168.42.9:3306/mydb?autoReconnect=true&useSSL=false
+#      username: root
+#      password: root
+#      driver-class-name: com.mysql.jdbc.Driver
+#
+#c3p0:
+#  driverClass: com.mysql.jdbc.Driver
